@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+}
+.cabecalho{
+    background-color: #e7e7e7;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+/*cabeçalho*/
+.cabecalho ul{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    list-style: none;
+    cursor: pointer; 
+    padding: 20px;
+}
+
+.cabecalho ul li i{
+    color: rgb(5, 5, 119);
+    font-size: 17px;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.cabecalho a:hover{
+    text-decoration: underline;
+}
