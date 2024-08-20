@@ -43,8 +43,6 @@ body{
    background-color: #011F8D;
    color: #e7e7e7;
 }
-
-
    
 /*configuração do corpo principal do site*/
 .principal{
@@ -56,10 +54,10 @@ body{
 
 /*descrição da loja*/
 .descricao{
-    margin-top: 20px;
-    width: 1800px;
-    height: 239px;
-    text-align: center;
+    margin-top: 30px;
+    width: 1600px;
+    height: 240px;
+    text-align: justify;
     line-height: 2rem;
     text-indent: 60px;
 }
@@ -251,6 +249,16 @@ footer{
 .links{
     display: flex;
     gap: 50px;
+}
+
+.links a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+.links a:hover{
+   text-decoration: underline;
 }
 
 .txt-footer{
