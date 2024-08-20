@@ -26,24 +26,26 @@ body{
 }
 
 .cabecalho ul li i{
-    color: rgb(5, 5, 119);
+    color: #011F8D;
     font-size: 17px;
 }
 
 .cabecalho a{
+    color: #011F8D;
     text-decoration: none;
     margin-left: 10px;
+    transition: 0.5s;
 }
 
 .cabecalho a:hover{
-    text-decoration: underline;
+   border-radius: 3px;
+   padding: 5px;
+   background-color: #011F8D;
+   color: #e7e7e7;
 }
-/*foto da home*/
-.foto{
-    border: 2px solid black;
+
+
    
-    height: 300px;
-}
 /*configuração do corpo principal do site*/
 .principal{
     display: flex;
@@ -54,10 +56,12 @@ body{
 
 /*descrição da loja*/
 .descricao{
-    margin-top: 100px;
-    width: 100%;
-    border: 2px solid brown;
-    height: 249px;
+    margin-top: 20px;
+    width: 1800px;
+    height: 239px;
+    text-align: center;
+    line-height: 2rem;
+    text-indent: 60px;
 }
 
 /*config do primeiro titulo e linha*/
@@ -68,15 +72,15 @@ body{
 }
 
 h2{
-    margin-left:40px;
-    margin-right:40px;
+    margin-left:17px;
+    margin-right:17px;
     color: darkblue;
 }
 
 .line-t1{
    width: 608px;
     height: 5px;
-    background-color: darkblue;
+    background-color:#011F8D;
 }
 
 /*sessao dos cards*/
@@ -145,7 +149,7 @@ h2{
 
  .plano h3{
     text-align: center;
-    background-color: blue;
+    background-color:#011F8D;
     color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
