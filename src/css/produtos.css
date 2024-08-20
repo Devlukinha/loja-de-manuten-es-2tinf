@@ -38,28 +38,5 @@ body{
     text-decoration: underline;
 }
 
-.card_pc{
-    display: flex;
-    justify-content: space-arround;
-    text-align: center;
-    margin: 5%;
-    gap: 5%;
-    align-items: center;
-}
 
-.card{
-    border: black solid 1px;
-    border-radius: 15px;
-    box-shadow: 1px 1px 5px;
 
-}
-
-.link_comprar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.acer_nitro{
-    padding-bottom: 70px;
-    padding-top: 47px;
-} 
