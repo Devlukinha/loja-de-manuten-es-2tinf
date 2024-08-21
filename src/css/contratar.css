@@ -71,10 +71,13 @@ h2{
     color: darkblue;
 }
 
+/*Estilo do Formulário*/
+
 input{
     border: 1px solid rgba(177, 177, 177, 0.822);
     border-radius: 5px;
     width: 100%;
+    padding: 10px;
 }
 
 input:placeholder-shown{
@@ -85,6 +88,10 @@ input:placeholder-shown{
 textarea{
     border-radius: 5px;
     border: 1px solid rgba(177, 177, 177, 0.822);
+    width: 100%;
+    padding: 8px;
+    resize: none;
+    
 }
 
 textarea:placeholder-shown{
