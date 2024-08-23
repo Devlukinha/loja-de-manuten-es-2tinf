@@ -13,6 +13,14 @@ body{
     height: 80px;
     width: 100%;
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: -110px;
 }
 
 /*cabeçalho*/
@@ -23,6 +31,7 @@ body{
     list-style: none;
     cursor: pointer; 
     padding: 20px;
+    margin-right: 50px;
 }
 
 .cabecalho ul li i{
@@ -51,18 +60,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 form{
     border: 1px solid rgba(177, 177, 177, 0.822);
     border-radius: 20px;
     padding: 20px;
-    margin: 120px  40px ;
+    margin: 120px  40px;
+    
 }
 
 #titulo{
     margin-bottom: 25px;
-
 }
 
 h2{
@@ -71,13 +81,10 @@ h2{
     color: darkblue;
 }
 
-/*Estilo do Formulário*/
-
 input{
     border: 1px solid rgba(177, 177, 177, 0.822);
     border-radius: 5px;
     width: 100%;
-    padding: 10px;
 }
 
 input:placeholder-shown{
@@ -88,10 +95,6 @@ input:placeholder-shown{
 textarea{
     border-radius: 5px;
     border: 1px solid rgba(177, 177, 177, 0.822);
-    width: 100%;
-    padding: 8px;
-    resize: none;
-    
 }
 
 textarea:placeholder-shown{
@@ -122,16 +125,25 @@ footer{
     height: 200px;
 }
 
-#logofooter{
-    border: 2px solid black;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
+#logofooter img{
+    width: 70px;
+   margin-top: 0px;
+   border-radius: 10px;
 }
 
 .links{
     display: flex;
     gap: 50px;
+}
+
+.links a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+.links a:hover{
+   text-decoration: underline;
 }
 
 .txt-footer{
