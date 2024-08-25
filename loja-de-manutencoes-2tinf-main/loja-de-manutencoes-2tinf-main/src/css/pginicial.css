@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins";
+}
+
+.cabecalho{
+    background-color: #e7e7e7;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: -110px;
+}
+
+/*cabeçalho*/
+.cabecalho ul{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    list-style: none;
+    cursor: pointer; 
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.cabecalho ul li i{
+    color: #011F8D;
+    font-size: 17px;
+}
+
+.cabecalho a{
+    color: #011F8D;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.cabecalho a:hover{
+   border-radius: 3px;
+   padding: 5px;
+   background-color: #011F8D;
+   color: #e7e7e7;
+}
+   
+/*configuração do corpo principal do site*/
+.principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*descrição da loja*/
+.descricao{
+    margin-top: 30px;
+    width: 1600px;
+    height: 240px;
+    text-align: justify;
+    line-height: 2rem;
+    text-indent: 60px;
+}
+
+/*config do primeiro titulo e linha*/
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+h2{
+    margin-left:17px;
+    margin-right:17px;
+    color: darkblue;
+}
+
+.line-t1{
+   width: 608px;
+    height: 5px;
+    background-color:#011F8D;
+}
+
+/*sessao dos cards*/
+.sessao-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+/*texto da sessao card*/
+.txt-cards{
+    margin-bottom: 60px;
+}
+
+/*config das fileiras*/
+.fileira-card{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+/*config de todos os cards*/
+.card{
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.411);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.card > img{
+    border-radius: 9px;
+}
+
+/*config do segundo titulo e linha*/
+.title2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.line-t2{
+    width: 560px;
+     height: 5px;
+     background-color: black;
+ }
+
+ /*config da sessao dos planos*/
+ .sessao-planos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+ }
+
+ /*config dos cards dos planos*/
+ .plano{
+    border: 2px solid black;
+    width: 300px;
+    height: 460px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    background-color: rgb(230, 249, 255);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+ }
+
+ .plano h3{
+    text-align: center;
+    background-color:#011F8D;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+
+ .plano > span{
+    margin-left: 60px;
+ }
+
+ .plano h4{
+    text-align: center;
+    font-size: 30px;
+ }
+
+ .plano ul{
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+
+ .plano ul li{
+    line-height: 40px;
+    list-style: none;
+ }
+
+  .bi-check-circle-fill{
+    color: rgb(20, 223, 20);
+    margin-right: 6px;
+ }
+
+ .bi-exclamation-octagon-fill{
+    color: red;
+    margin-right: 6px;
+ }
+
+ .txt-planos{
+    margin: 50px 0px ;
+ }
+
+ /*config terceiro titulo e linha*/
+ .title3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.line-t3{
+    width: 560px;
+     height: 5px;
+     background-color: black;
+ }
+
+ /*config sessao-fundadores*/
+.sessao-fundadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+/*config de cada fundador*/
+.fund{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 900px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fund > img{
+    border: 2px solid black;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+/*rodapé*/
+
+footer{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+#logofooter img{
+    width: 70px;
+   margin-top: 0px;
+   border-radius: 10px;
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+}
+
+.links a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+.links a:hover{
+   text-decoration: underline;
+}
+
+.txt-footer{
+    margin-top: 30px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
