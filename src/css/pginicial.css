@@ -64,7 +64,8 @@ body{
 /*descrição da loja*/
 .descricao{
     margin-top: 30px;
-    width: 1600px;
+    margin-bottom: 60px;
+    width: 1400px;
     height: 240px;
     text-align: justify;
     line-height: 2rem;
@@ -85,7 +86,7 @@ h2{
 }
 
 .line-t1{
-   width: 608px;
+   width: 500px;
     height: 5px;
     background-color:#011F8D;
 }
@@ -216,21 +217,30 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 80px;
+    
+}
+
+.sessao-fundadores p{
+    margin-top: 30px;
 }
 
 /*config de cada fundador*/
 .fund{
     display: flex;
     align-items: center;
-    border: 2px solid black;
-    width: 900px;
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 0.397);
+    width: 1000px;
     height: 300px;
     padding: 20px;
     border-radius: 10px;
 }
 
+.fund  h1{
+    color: #011F8D;
+}
+
 .fund > img{
-    border: 2px solid black;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
     width: 180px;
     height: 180px;
     border-radius: 10px;

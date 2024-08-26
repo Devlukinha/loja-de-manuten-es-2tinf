@@ -53,6 +53,17 @@ body{
    color: #e7e7e7;
 }
 
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px 100px 0px;
+}
+
+.cadastro img{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
 
 /*Corpo do site*/
 
@@ -65,12 +76,12 @@ body{
 
 form{
     border: 1px solid rgba(177, 177, 177, 0.822);
-    border-radius: 20px;
     padding: 20px;
-    margin: 120px  40px;
     font-family: "Poppins";
     
 }
+
+
 
 #titulo{
     margin-bottom: 25px;

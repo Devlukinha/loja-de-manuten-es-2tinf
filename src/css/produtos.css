@@ -58,11 +58,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .descricao{
     margin-top: 30px;
-    width: 1600px;
+    width: 1400px;
     height: 240px;
     text-align: justify;
     line-height: 2rem;
@@ -85,10 +86,12 @@ h2{
 }
 
 .line-t1{
-    width: 608px;
+    width: 508px;
     height: 5px;
     background-color:#011F8D;
 }
+
+
 
 /*sessao-produtos*/
 .sessao-produtos{
@@ -142,7 +145,7 @@ h2{
 
 
 .txt-pcs{
-    width: 1600px;
+    width: 1400px;
     text-align: justify;
     text-indent: 60px;
     margin-top: 20px;
